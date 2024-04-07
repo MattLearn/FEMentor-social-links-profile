@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    @font-face{
+      font-family: "Inter-Variable";
+      src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+    }
+    
+    body{
+      font-family: 'Inter-Variable';
+      background-color: #141414;
+      color: whitesmoke;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card{
+      align-self: center;
+      max-width: fit-content;
+      background-color: #1f1f1f;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+
+    .title{
+      margin-bottom: 0px;
+      margin-top: 1.5em;
+    }
+
+    .location{
+      color: #C4F82A;
+      font-size: 0.875em;
+      margin-top: 0.75em;
+      margin-bottom: 1.5em;
+    }
+
+    .job{
+      font-size: small;
+      margin-bottom: 0.75em;
+    }
+
+    button{
+      width: 20em;
+      height: 2.5em;
+      margin-top: 0.75em;
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+      font-weight: 600;
+      border: none;
+      background-color: #333333;
+      color: white;
+      border-radius: 4px;
+      font-family: 'Inter-Variable';
+      animation-duration: 1s;
+    }
+
+    button:last-child{
+      margin-bottom: 24px;
+    }
+
+    button:hover{
+      color: #333333;
+      background-color: #C4F82A;
+    }
+
+    img{
+      border-radius: 100%;
+      width:25%;
+      margin-top: 1.5em;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="assets\images\avatar-jessica.jpeg"  />
+    <h2 class="title">Jessica Randall</h2>
+    <strong class="location">London, United Kingdom</strong>
+    <em class="job">"Front-end developer and avid reader."</em>
+
+    <button> GitHub </button>
+    <button>Frontend Mentor</button>
+    <button>LinkedIn</button>
+    <button>Twitter</button>
+    <button>Instagram</button>
+  </div>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mattlearn</a>.
+  </div>
+</body>
+</html>
